@@ -13,7 +13,7 @@ logging.basicConfig(level=logging.DEBUG,format='%(asctime)s - %(name)s - %(level
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
-updater = Updater(os.environ.get("BOT_API_KEY"), use_context=True)
+updater = Updater(os.environ.get("1648067890:AAHkAlmPipyBB4tQ6dFieZ9ib4AIk5Poozw"), use_context=True)
 
 BOT_LOG_CHAT = os.environ.get("BOT_LOG_CHAT")
 
